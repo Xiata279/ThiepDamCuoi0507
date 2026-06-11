@@ -209,7 +209,8 @@ export default function Home() {
                                     <div className="event-tag">Trân Trọng Kính Mời</div>
                                     <div className="event-name">Tiệc Cưới</div>
                                     <div className="event-divider" />
-                                    <div className="event-date">Chủ Nhật · 05 / 07 / 2026<br />Vào lúc 17H00</div>
+                                    <div className="event-time">17H00</div>
+                                    <div className="event-date">Chủ Nhật · 05 / 07 / 2026</div>
                                     <div className="event-venue">
                                         <strong>Vàng Son Restaurant</strong><br />
                                         Sảnh Vàng Son 2<br />
