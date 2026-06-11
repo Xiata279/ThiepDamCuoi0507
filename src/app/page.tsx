@@ -195,31 +195,72 @@ export default function Home() {
                                     Sự hiện diện của bạn là món quà quý giá nhất<br />
                                     mà chúng tôi nhận được trong ngày đặc biệt này.
                                 </p>
-                                <div className="intro-big-names">Hùng Anh &amp; Kiều Trinh</div>
                             </div>
                         </section>
 
-                        {/* ── EVENTS ── */}
-                        <section className="section-events section-pad reveal">
-                            <p className="section-label">wedding details</p>
-                            <h2 className="section-title">Thông Tin Tiệc Cưới</h2>
-                            <div className="events-grid" style={{ justifyContent: "center" }}>
-                                <div className="event-card reveal" style={{ maxWidth: 420, margin: "0 auto" }}>
-                                    <div className="event-icon">🥂</div>
-                                    <div className="event-tag">Trân Trọng Kính Mời</div>
-                                    <div className="event-name">Tiệc Cưới</div>
-                                    <div className="event-divider" />
-                                    <div className="event-date">Chủ Nhật · 05 / 07 / 2026</div>
-                                    <div className="event-time">17H00</div>
-                                    <div className="event-venue">
-                                        <strong>Vàng Son Restaurant</strong><br />
-                                        Sảnh Vàng Son 2<br />
-                                        548 Phạm Văn Đồng, Phường Thống Nhất<br />
-                                        Tỉnh Gia Lai
-                                    </div>
+                        {/* ── FORMAL INVITE CARD ── */}
+                        <section className="section-formal-invite section-pad reveal">
+                          <div className="formal-card">
+
+                            {/* Family info row */}
+                            <div className="formal-family-row">
+                              <div className="formal-family-side">
+                                <div className="formal-family-label">NHÀ TRAI</div>
+                                <div className="formal-family-detail">
+                                  Ông: CAI TÙNG LINH<br/>
+                                  Bà: ĐÀO THỊ HUỆ<br/>
+                                  <span className="formal-family-addr">23/61 Lữ Gia<br/>P. Thống Nhất - Gia Lai</span>
                                 </div>
+                              </div>
+                              <div className="formal-family-center">
+                                <img src="/assets/botanical_new.webp" alt="" />
+                              </div>
+                              <div className="formal-family-side formal-family-side--right">
+                                <div className="formal-family-label">NHÀ GÁI</div>
+                                <div className="formal-family-detail">
+                                  Ông: LÊ THANH DUY<br/>
+                                  Bà: LÊ THỊ THÚY HẰNG<br/>
+                                  <span className="formal-family-addr">122/20 Lê Thánh Tôn<br/>P. Diên Hồng - Gia Lai</span>
+                                </div>
+                              </div>
                             </div>
+
+                            <div className="formal-divider-thin" />
+
+                            {/* Invite text */}
+                            <p className="formal-tran-trong">TRÂN TRỌNG KÍNH MỜI</p>
+                            <div className="formal-guest-pill">Quý Khách</div>
+                            <p className="formal-sub-text">TỚI TIỆC CƯỚI<br/>CÙNG GIA ĐÌNH CHÚNG TÔI</p>
+
+                            {/* Couple names */}
+                            <div className="formal-couple-names">
+                              <div className="formal-groom-name">Hùng Anh</div>
+                              <div className="formal-heart-icon">❤️</div>
+                              <div className="formal-bride-name">Kiều Trinh</div>
+                            </div>
+
+                            {/* Event label */}
+                            <div className="formal-event-btn">TIỆC CƯỚI</div>
+
+                            {/* Event details */}
+                            <p className="formal-time-label">Tổ chức vào lúc 17 giờ 00</p>
+                            <p className="formal-date"><strong>Chủ Nhật, ngày 05 tháng 07 năm 2026</strong></p>
+                            <p className="formal-lunar">(Tức ngày 11 tháng 06 năm Bính Ngọ)</p>
+
+                            <div className="formal-venue-label">TẠI</div>
+                            <p className="formal-venue">
+                              <strong>Vàng Son Restaurant</strong>
+                              Sảnh Vàng Son 2<br/>
+                              548 Phạm Văn Đồng, Tỉnh Gia Lai
+                            </p>
+
+                            <div className="formal-bottom-thin" />
+                            <p className="formal-bottom-msg">
+                              Sự hiện diện của Quý Khách là niềm vinh hạnh<br/>của gia đình chúng tôi!
+                            </p>
+                          </div>
                         </section>
+
 
                         {/* ── COUNTDOWN ── */}
                         <section className="section-countdown section-pad reveal">
@@ -233,6 +274,18 @@ export default function Home() {
                                     </div>
                                 ))}
                             </div>
+                        </section>
+
+                        {/* ── NHỜ NGÀY ĐÓ NHÉ ── */}
+                        <section className="section-nho-ngay reveal">
+                          <div className="nho-ngay-bg" style={{ backgroundImage: "url('/assets/gallery_4.jpg')" }}>
+                            <div className="nho-ngay-overlay" />
+                            <div className="nho-ngay-content">
+                              <p className="nho-ngay-eyebrow">our story</p>
+                              <h2 className="nho-ngay-title">NHỜ NGÀY ĐÓ NHÉ</h2>
+                              <p className="nho-ngay-date">Chủ Nhật, ngày 05 tháng 07 năm 2026</p>
+                            </div>
+                          </div>
                         </section>
 
                         {/* ── GALLERY ── */}
