@@ -2,7 +2,7 @@
 
 import { useState, useEffect, useRef, useCallback } from "react";
 
-const WEDDING_DATE = new Date("Jul 5, 2026 09:00:00").getTime();
+const WEDDING_DATE = new Date("Jul 5, 2026 17:00:00").getTime();
 
 function pad(n: number) { return String(n).padStart(2, "0"); }
 
@@ -209,7 +209,7 @@ export default function Home() {
                                     <div className="event-tag">Trân Trọng Kính Mời</div>
                                     <div className="event-name">Tiệc Cưới</div>
                                     <div className="event-divider" />
-                                    <div className="event-date">Chủ Nhật · 05 / 07 / 2026</div>
+                                    <div className="event-date">Chủ Nhật · 05 / 07 / 2026<br />Vào lúc 17H00</div>
                                     <div className="event-venue">
                                         <strong>Vàng Son Restaurant</strong><br />
                                         Sảnh Vàng Son 2<br />
