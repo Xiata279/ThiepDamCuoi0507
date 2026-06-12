@@ -245,7 +245,7 @@ export default function Home() {
                             {/* Event details */}
                             <p className="formal-time-label">Tổ chức vào lúc 17 giờ 00</p>
                             <p className="formal-date"><strong>Chủ Nhật, ngày 05 tháng 07 năm 2026</strong></p>
-                            <p className="formal-lunar">(Tức ngày 11 tháng 06 năm Bính Ngọ)</p>
+                            <p className="formal-lunar">(Tức ngày 21 tháng 5 năm Bính Ngọ)</p>
 
                             <div className="formal-venue-label">TẠI</div>
                             <p className="formal-venue">
