@@ -189,11 +189,11 @@ export default function Home() {
                                 <h2 className="section-title">Lời Ngỏ</h2>
                                 <p className="intro-text">
                                     Với tất cả tình yêu thương và sự trân trọng,<br />
-                                    chúng tôi xin trân trọng kính mời bạn<br />
+                                    chúng tôi xin trân trọng kính mời<br />
                                     đến chung vui trong ngày hạnh phúc nhất<br />
                                     của cuộc đời chúng tôi.<br /><br />
-                                    Sự hiện diện của bạn là món quà quý giá nhất<br />
-                                    mà chúng tôi nhận được trong ngày đặc biệt này.
+                                    Những lời chúc của quý vị là món quà vô giá<br />
+                                    với gia đình chúng tôi trong ngày trọng đại này. 💕
                                 </p>
                             </div>
                         </section>
