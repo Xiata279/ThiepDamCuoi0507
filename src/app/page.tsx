@@ -276,13 +276,13 @@ export default function Home() {
                             </div>
                         </section>
 
-                        {/* ── NHỜ NGÀY ĐÓ NHÉ ── */}
+                        {/* ── NHỚ NGÀY ĐÓ NHÉ ── */}
                         <section className="section-nho-ngay reveal">
                           <div className="nho-ngay-bg" style={{ backgroundImage: "url('/assets/gallery_4.jpg')" }}>
                             <div className="nho-ngay-overlay" />
                             <div className="nho-ngay-content">
                               <p className="nho-ngay-eyebrow">our story</p>
-                              <h2 className="nho-ngay-title">NHỜ NGÀY ĐÓ NHÉ</h2>
+                              <h2 className="nho-ngay-title">NHỚ NGÀY ĐÓ NHÉ</h2>
                               <p className="nho-ngay-date">Chủ Nhật, ngày 05 tháng 07 năm 2026</p>
                             </div>
                           </div>
