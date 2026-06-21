@@ -165,7 +165,7 @@ export default function Home() {
 
                         {/* ── COVER ── */}
                         <section className="section-cover">
-                            <div className="cover-bg" style={{ backgroundImage: "url('/assets/hero.jpg')" }} />
+                            <div className="cover-bg" style={{ backgroundImage: "url('/assets/gallery_3.jpg')" }} />
                             <div className="cover-overlay" />
                             <div className="cover-content">
                                 <p className="cover-invite">Trân trọng kính mời</p>
@@ -295,7 +295,7 @@ export default function Home() {
                             <div className="gallery-grid">
                                 {/* Hero — full width top banner */}
                                 <div className="g-item g-hero reveal"
-                                    style={{ backgroundImage: "url('/assets/hero.jpg')" }} />
+                                    style={{ backgroundImage: "url('/assets/gallery_3.jpg')" }} />
 
                                 {/* Left tall portrait */}
                                 <div className="g-item g-1 reveal"
@@ -307,7 +307,7 @@ export default function Home() {
 
                                 {/* Right bottom */}
                                 <div className="g-item g-3 reveal"
-                                    style={{ backgroundImage: "url('/assets/gallery_3.jpg')" }} />
+                                    style={{ backgroundImage: "url('/assets/hero.jpg')" }} />
 
                                 {/* Full width bottom banner */}
                                 <div className="g-item g-4 reveal"
