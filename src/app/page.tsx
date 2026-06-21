@@ -315,48 +315,6 @@ export default function Home() {
                             </div>
                         </section>
 
-                        {/* ── RSVP ── */}
-                        <section className="section-rsvp section-pad reveal">
-                            <p className="section-label">rsvp</p>
-                            <h2 className="section-title">Xác Nhận Tham Dự</h2>
-                            <div className="rsvp-form-box">
-                                {rsvpStatus === "success" ? (
-                                    <div className="rsvp-success-msg">
-                                        ♥ Cảm ơn bạn đã xác nhận!<br />
-                                        <span style={{ fontSize: "0.9rem", fontFamily: "Montserrat", fontStyle: "normal", color: "#9a8a75" }}>
-                                            Chúng tôi rất mong được gặp bạn!
-                                        </span>
-                                    </div>
-                                ) : (
-                                    <form onSubmit={handleRSVP}>
-                                        {rsvpStatus === "error" && (
-                                            <div style={{ color: "#d9534f", marginBottom: "1rem", fontSize: "0.9rem", fontFamily: "var(--font-sans, sans-serif)", textAlign: "center" }}>
-                                                ❌ Có lỗi xảy ra khi lưu. Vui lòng thử lại sau!
-                                            </div>
-                                        )}
-                                        <div className="fg">
-                                            <input name="name" placeholder="Họ và tên *" required />
-                                        </div>
-                                        <div className="fg">
-                                            <select name="attendance" required defaultValue="">
-                                                <option value="" disabled>Bạn có tham dự không? *</option>
-                                                <option value="yes">✓ Tôi sẽ tham dự</option>
-                                                <option value="no">✗ Rất tiếc, tôi bận</option>
-                                            </select>
-                                        </div>
-                                        <div className="fg">
-                                            <input name="guests" type="number" min="0" defaultValue="0" placeholder="Số người đi cùng" />
-                                        </div>
-                                        <div className="fg">
-                                            <textarea name="message" rows={3} placeholder="Lời chúc tới đôi uyên ương..." />
-                                        </div>
-                                        <button className="btn-rsvp" type="submit" disabled={rsvpStatus === "loading"}>
-                                            {rsvpStatus === "loading" ? "Đang gửi..." : "Gửi Xác Nhận ♥"}
-                                        </button>
-                                    </form>
-                                )}
-                            </div>
-                        </section>
 
                         {/* ── FOOTER ── */}
                         <footer className="site-footer">
